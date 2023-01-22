@@ -1,16 +1,22 @@
+import './App.css';
+import { Home } from "./pagesections/Home";
+import { About } from "./pagesections/About";
+import { Cases } from "./pagesections/Cases";
+import { Blog } from "./pagesections/Blog";
+import { Contacts } from "./pagesections/Contacts";
+
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
+    <>
+      <Home />
+      <About />
+      <Cases />
+      <Blog />
+      <Contacts />
+    </>
+
+
+
   );
 };
