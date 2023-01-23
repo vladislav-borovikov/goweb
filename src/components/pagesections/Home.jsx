@@ -1,5 +1,3 @@
-// import "../../images/icon/Logo.svg"
-
 import { SvgSelect } from "halpers/SvgSelect/SvgSelect";
 
 
@@ -7,14 +5,9 @@ export const Home = () => {
     return (
         <div>
             Home
-            <header>
-                <div>
-                    <SvgSelect id={"fb"} /><span>Finance</span><span>Ledger</span>
-                </div>
-                <div>
-
-                </div>
-            </header>
+            <h1>The Sky Is The Limit</h1>
+            <p>We provide world class financial assistance</p>
+            <button>Read More</button>
 
 
         </div>
