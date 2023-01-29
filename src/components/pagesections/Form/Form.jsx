@@ -44,7 +44,6 @@ export const Form = () => {
             <form className={styles.form_container} onSubmit={formik.handleSubmit} name="contact" method="post">
                 <input type="hidden" name="form-name" value="contact" />
                 <h4 className={styles.form_title}>Request Callback</h4 >
-                <input type="hidden" name="form-name" value="the-name-of-the-html-form" />
                 <input className={styles.form_input} type="text" name="name" placeholder={"Enter your name"} id="name"
                     onChange={formik.handleChange}
                     onBlur={formik.handleBlur}
