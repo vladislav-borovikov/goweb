@@ -1,7 +1,4 @@
 import People from "../../../images/images/home/people.jpg"
-import People2x from "../../../images/images/home/people@2x.jpg"
-import PeopleWebp from "../../../images/images/home/people.webp"
-import PeopleWebp2x from "../../../images/images/home/people@2x.webp"
 
 import styles from "./About.module.scss"
 
