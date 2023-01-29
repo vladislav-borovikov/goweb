@@ -1,0 +1,45 @@
+.footer {
+    background-color: #333333;
+    padding: 20px 30px 20px 34px;
+
+
+    &_iconConainer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 12px;
+
+    }
+
+    &_link {
+
+
+        &:not(:last-child) {
+
+            margin-right: 25px;
+        }
+    }
+
+    &_icon {
+        fill: #FFFFFF;
+
+        &:hover {
+            fill: #28A745;
+        }
+    }
+
+
+    &_license {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+}

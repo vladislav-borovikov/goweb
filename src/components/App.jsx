@@ -1,15 +1,17 @@
 import './App.css';
-import { Header } from "./pagesections/Header"
-import { Home } from "./pagesections/Home";
-import { About } from "./pagesections/About";
-import { Cases } from "./pagesections/Cases";
-import { Blog } from "./pagesections/Blog";
-import { Contacts } from "./pagesections/Contacts";
-import { Footer } from './pagesections/Footer';
-
+import { Header } from "./pagesections/Header/Header"
+import { Home } from "./pagesections/Home/Home";
+import { About } from "./pagesections/About/About";
+import { Cases } from "./pagesections/Cases/Cases";
+import { Blog } from "./pagesections/Blog/Blog";
+import { Contacts } from "./pagesections/Contacts/Contacts";
+import { Form } from './pagesections/Form/Form';
+import { Footer } from './pagesections/Footer/Footer';
 
 
 export const App = () => {
+
+
   return (
     <>
       <Header />
@@ -19,9 +21,11 @@ export const App = () => {
         <Cases />
         <Blog />
         <Contacts />
+        <Form />
       </main>
 
       <Footer />
+
     </>
 
 

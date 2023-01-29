@@ -1,0 +1,130 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F4F4F4;
+
+    @media screen and (min-width: 768px) {
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+
+    }
+
+
+
+    &_img {
+        @media screen and (min-width: 768px) {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        @media screen and (min-width: 1360px) {
+            width: auto;
+
+        }
+    }
+
+
+    &_container {
+        padding: 51px 20px 25px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+
+        @media screen and (min-width: 768px) {
+            padding: 32px;
+            align-items: baseline;
+        }
+
+        @media screen and (min-width: 1360px) {
+            padding: 56px 28px 77px 20px;
+        }
+    }
+
+    &_title {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 48px;
+        color: #333333;
+
+        margin-bottom: 69px;
+
+        @media screen and (min-width: 768px) {
+            font-size: 40px;
+            line-height: 54px;
+            margin-bottom: 24px;
+        }
+    }
+
+    &_input {
+        padding: 16px 8px;
+        gap: 10px;
+
+        width: 100%;
+        height: 56px;
+        left: 20px;
+        top: 5093px;
+
+        background: #FFFFFF;
+        border: 1px solid #F5F5F5;
+        border-radius: 5px;
+
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 23px;
+        margin-bottom: 16px;
+
+
+        color: #808080;
+
+        @media screen and (min-width: 768px) {
+            font-size: 18px;
+            line-height: 25px;
+        }
+
+
+    }
+
+    &_button {
+        width: 155px;
+        height: 57px;
+        background: #28A745;
+        border-radius: 5px;
+
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        color: #FFFFFF;
+
+        margin-top: 8px;
+        margin-right: auto;
+
+        &:hover,
+        &:focus {
+            cursor: pointer;
+            background: #2EBF4F;
+        }
+    }
+
+
+}
+
+.worningMassage {
+    margin-top: -16px;
+    display: flex;
+    flex-direction: row;
+    // justify-content: center;
+    margin-right: auto;
+    font-size: 14px;
+    color: #EB5757;
+}
