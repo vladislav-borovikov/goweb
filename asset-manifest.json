@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/goweb/static/css/main.d059be5b.css",
-    "main.js": "/goweb/static/js/main.d36dea4e.js",
+    "main.js": "/goweb/static/js/main.de593fc6.js",
     "static/media/showcase.jpg": "/goweb/static/media/showcase.51cab55d982ce4bcedb5.jpg",
     "static/media/people.jpg": "/goweb/static/media/people.f32f74cc55eb8b3518b7.jpg",
     "static/media/cases4.jpg": "/goweb/static/media/cases4.bc8713e3f48b0aee4eab.jpg",
@@ -24,10 +24,10 @@
     "static/media/fb.svg": "/goweb/static/media/fb.88bbd1ff7afc929e22c4800d31c70255.svg",
     "static/media/arrow.svg": "/goweb/static/media/arrow.d95fddb6dc5f4aba331b4f2d608e6067.svg",
     "main.d059be5b.css.map": "/goweb/static/css/main.d059be5b.css.map",
-    "main.d36dea4e.js.map": "/goweb/static/js/main.d36dea4e.js.map"
+    "main.de593fc6.js.map": "/goweb/static/js/main.de593fc6.js.map"
   },
   "entrypoints": [
     "static/css/main.d059be5b.css",
-    "static/js/main.d36dea4e.js"
+    "static/js/main.de593fc6.js"
   ]
 }
