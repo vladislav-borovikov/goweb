@@ -41,8 +41,10 @@ export const Form = () => {
             <div>
                 <img src={contact} alt="contact" className={styles.form_img} />
             </div>
-            <form className={styles.form_container} onSubmit={formik.handleSubmit}>
+            <form className={styles.form_container} onSubmit={formik.handleSubmit} name="contact" method="post">
+                <input type="hidden" name="form-name" value="contact" />
                 <h4 className={styles.form_title}>Request Callback</h4 >
+                <input type="hidden" name="form-name" value="the-name-of-the-html-form" />
                 <input className={styles.form_input} type="text" name="name" placeholder={"Enter your name"} id="name"
                     onChange={formik.handleChange}
                     onBlur={formik.handleBlur}
@@ -56,7 +58,6 @@ export const Form = () => {
                     onChange={formik.handleChange}
                     onBlur={formik.handleBlur}
                     value={formik.values.email} />
-                {/* <div className={styles.worningMassage}><IconWorning />,mbvjhvjhhvliyvlv</div> */}
                 {formik.touched.email && formik.errors.email ? (
                     <div className={styles.worningMassage}><IconWorning styles=" padding: 0px; display: flex" />{formik.errors.email}</div>
                 ) : null}
